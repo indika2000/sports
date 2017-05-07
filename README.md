@@ -16,9 +16,12 @@
   git clone https://github.com/indika2000/sports.git
   ``` 
   
-  or unzip the provide compressed folder
+  or unzip the provide compressed folder using tar
+  ```
+  tar -xvf <root_dir_where_file_is_located>/sports_v1.tar.gz
+  ```
   
-4. Activate the virtualenv (from the sports dir)
+4. Activate the virtualenv (from the sports dir) - you need to be in the dir <root_dir>/sports
   ``` 
   source bin/activate
   ``` 
@@ -30,7 +33,7 @@
   
 6. From the project folder (location of the manage.py file)
 ```
-  i.e. <root dir>/sports/sports/app
+  i.e. <root dir>/sports/app
   ```
   a. Run tests by calling
      ``` 
