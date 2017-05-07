@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Fixtures - Enter an ID, find the fixtures</title>
+    <head>
+    <nav>
+        <ul>
+            <li> <a href="{% url 'fixtures' %}"> Home </a> </li>
+        </ul>
+    </nav>
+</head>
+</head>
+<body>
+
+<form method="POST">
+    {{ form }}
+    {% csrf_token %}
+</form>
+
+{% block content %}
+{% endblock content %}
+
+</body>
+</html>

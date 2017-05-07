@@ -1,0 +1,13 @@
+{% extends 'fixtures.html' %}
+
+{% block content %}
+
+<table id="id_team_fixtures">
+
+    {% for fixture in fixtures %}
+        <tr><td> {{ fixture }} </td></tr>
+    {% endfor %}
+
+</table>
+
+{% endblock content %}
